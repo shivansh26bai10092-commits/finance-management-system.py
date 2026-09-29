@@ -1,82 +1,76 @@
 # finance-management-system.py
 A command-line personal finance manager in Python to track income and expenses, view category reports, and get budget warnings, with data saved locally in JSON. 
-# Personal Finance Manager 💰
+# Personal Finance Manager
 
-## 📌 Project Description
+## Project Description
 
-The **Personal Finance Manager** is a Python-based command-line application designed to help users manage their personal finances efficiently. It allows users to record income and expenses, track their spending, monitor their monthly budget, and view financial summaries.
+The Personal Finance Manager is a Python command line application that helps to manage personal finances. The application helps to monitor income, expenses, budget, and financial overview.
 
-The application stores transaction data in a JSON file, ensuring that financial records are preserved even after the program is closed.
+The application stores all the data of the user in a JSON file so that the data remains safe even after closing the application.
 
-## ✨ Features
+## Features
 
-* **Add Income:** Record income from sources such as salary, pocket money, scholarships, and gifts.
-* **Add Expenses:** Track expenses under categories like food, travel, books, shopping, bills, and entertainment.
-* **View Transactions:** Display all recorded transactions, sorted by date.
-* **Financial Summary:** View total income, total expenses, current balance, and monthly financial details.
-* **Category-wise Expense Report:** Analyze spending by category using a simple text-based bar chart.
-* **Monthly Budget Management:** Set a monthly spending limit and receive warnings when spending reaches 80% of the budget or exceeds it.
-* **Delete Transactions:** Remove unwanted transactions using their unique ID.
-* **Persistent Data Storage:** Save and load financial records using a JSON file.
+- **Income Adding:** The application allows adding up income from different sources such as salary, pocket money, scholarships, and gifts.
+- **Expenses Adding:** The application allows the user to add expenses with different categories such as food, travel, books, shopping, bills, entertainment, etc.
+- **View All Transactions:** The application displays all the transactions made by the user in a well-formatted manner sorted according to the date of the transaction.
+- **Financial Summary:** The application shows the summary of total income, total expenses, total balance, and monthly financial overview.
+- **Expense Report:** The user gets an option to check the expense report in the form of a bar chart for better visualization of the expenses done in different categories.
+- **Monthly Budget:** The application allows the user to set a monthly budget and notify when the budget is reaching 80% or has crossed the set budget limit.
+- **Delete Transaction:** The application has an option to delete any transaction by the unique transaction ID.
+- **Data Persistence:** The application persists all the data of the user in a JSON file.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-* **Programming Language:** Python
-* **Modules:** `json`, `datetime`
-* **Data Storage:** JSON file (`finance_data.json`)
-* **Interface:** Command-Line Interface (CLI)
+- **Programming Language:** Python
+- **Modules:** json, datetime
+- **Data Persistence:** JSON file (`finance_data.json`)
+- **Interface:** Command-Line Interface
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### Prerequisites
 
-* Python 3.x installed on your system.
+- The system must have Python 3.x
 
 ### Steps
 
-1. Download or clone this repository.
+1. Download or clone this repository
+2. Open terminal or command prompt in the project directory
+3. Type the following command:
 
-2. Open a terminal or command prompt in the project folder.
-
-3. Run the following command:
-
-   ```bash
+```bash
    python finance_manager.py
-   ```
-
-4. Use the numbered menu to select the desired operation.
-
-5. Your financial data will be saved automatically in `finance_data.json`.
-
-## 📂 Project Structure
-
-```text
-Personal-Finance-Manager/
-│
-├── finance_manager.py    # Main Python application
-├── finance_data.json     # Stores financial records (created automatically)
-└── README.md             # Project documentation
 ```
 
-## 🎯 Objective
+4. Use the numbered options to choose from the available options
+5. The data will be stored in a JSON file for persistence between runs.
 
-The objective of this project is to develop a simple and practical financial management tool while applying Python programming concepts such as functions, loops, conditional statements, exception handling, file handling, and data structures.
+## Project Structure
 
-## 🔮 Future Scope
+```
+Personal-Finance-Manager/
+├── finance_manager.py   # Main python application
+├── finance_data.json    # Storing data (automatically generated)
+└── README.md            # Project documentation
+```
 
-* Add graphical user interface (GUI) support.
-* Generate monthly and yearly financial reports.
-* Include data visualization using graphs and charts.
-* Add transaction search and filtering options.
-* Export financial reports to CSV or PDF.
+The objective of this project is to demonstrate the knowledge of functions, loops, conditions, exceptions, file handling, and data structures in Python by developing a Personal Finance Manager application. The project also aims to provide experience in developing a real-world command-line application.
 
-## 👨‍💻 Project Information
+## Future Scope
 
-**Project Name:** Personal Finance Manager
-**Language:** Python
-**Project Type:** Command-Line Application
-**Developed as:** College Python Project
+The following future scope is planned to be implemented in the near future:
 
----
+- A GUI (Graphical user interface) should be added to the application.
+- The application should generate a monthly report and a yearly report.
+- The application should support visualization of financial data using graphs and charts.
+- The application should support searching and filtering of transactions.
+- The application will allow exporting of reports in CSV or PDF format.
 
-*This project demonstrates how Python can be used to build a simple and effective personal finance management system.*
+## Project Information
+
+- **Project Name:** Personal Finance Manager
+- **Language:** Python
+- **Project Type:** Command Line Application
+- **Developed as:** College Python Project
+
+The Personal Finance Manager project demonstrates how Python can be used to develop a personal finance management system.
